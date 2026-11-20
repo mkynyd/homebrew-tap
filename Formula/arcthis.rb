@@ -1,20 +1,20 @@
 class Arcthis < Formula
   desc "A command-line tool for reading and managing compressed files"
   homepage "https://arcthis.mkynstudio.top"
-  version "0.6.0"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mkynyd/arcthis/releases/download/v0.6.0/arcthis-aarch64-apple-darwin.tar.xz"
-      sha256 "88b52969fae600da9f99df92bd668298c88ba2010f48a62e96353dc7aad0a5a4"
+      url "https://github.com/mkynyd/arcthis/releases/download/v0.7.0/arcthis-aarch64-apple-darwin.tar.xz"
+      sha256 "a33a8672fc19eaa2730f90baff49e47f4450ab6952b68152d5658a53e911f042"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mkynyd/arcthis/releases/download/v0.6.0/arcthis-x86_64-apple-darwin.tar.xz"
-      sha256 "7025c6fb31d89b6b92b115f584d6f324f1608eb22c7734e676fea5e1314f15d7"
+      url "https://github.com/mkynyd/arcthis/releases/download/v0.7.0/arcthis-x86_64-apple-darwin.tar.xz"
+      sha256 "9f640a8a54f145644d5bf1d1e7e8c7898d61ad92a7229128fa334960ebbdb6be"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/mkynyd/arcthis/releases/download/v0.6.0/arcthis-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "c06ff32880f9e78b499231f6428f8affad115081ec6c0d402292c02e79fac694"
+    url "https://github.com/mkynyd/arcthis/releases/download/v0.7.0/arcthis-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "6d04913b5bb27e645f4fe08aa31f65fa035534d521b78da911c5e9671b429fd0"
   end
   license "MIT"
 
